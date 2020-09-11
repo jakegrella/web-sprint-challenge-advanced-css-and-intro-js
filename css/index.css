@@ -135,10 +135,36 @@ button:hover{
     width:100%;
 }
 
+/* 700px Breakpoint */
+@media screen and (max-width: 700px) {
+    nav {
+        width: 50%;
+    }
+
+    .title-container hr{
+        width:100%;
+    }
+
+    .artists-container {
+        flex-flow: row wrap;
+        line-height: 1.2;;
+    }
+
+    .artist {
+        width: 100%;
+    }
+    .artist img {
+        height: 45%;
+        width: 85%;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+}
+
 /* 500px Breakpoint */
 @media screen and (max-width: 500px) {
     nav {
-        width: 60%;
+        width: 70%;
     }
 
     .title-container div {
